@@ -1,8 +1,8 @@
 const canvas = document.querySelector("#draw");
 const ctx = canvas.getContext("2d");
 var qwe1,qwe2;
-let requestURL1 = 'https://raw.githubusercontent.com/Persik1223/tasks/master/tasks/stage-2/codejam-canvas/data/4x4.json';
-let requestURL2 = 'https://raw.githubusercontent.com/Persik1223/tasks/master/tasks/stage-2/codejam-canvas/data/32x32.json';
+let requestURL1 = 'https://github.com/Dmitrukk/tasks/blob/master/tasks/stage-2/codejam-canvas/data/4x4.json';
+let requestURL2 = 'https://github.com/Dmitrukk/tasks/blob/master/tasks/stage-2/codejam-canvas/data/32x32.json';
 var request1 = new XMLHttpRequest();
 var request2 = new XMLHttpRequest();
 request1.open('GET', requestURL1, true);
