@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Codejam-Canvas</title>
+</head>
+<body>
+    <div class="header">
+        <img class="nav_icon" src="data/navicon.png" alt="icon">
+        <h1>CodeJam - Pallete</h1>
+        <img class="menu_icon" src="data/menuicon.png" alt="menu">
+    </div>
+    <div class="main">
+        <div class="left">
+        <div class="menu">
+            <div class="element">
+                <img src="data/icon-share.png" alt="pouring">
+                <h2>Paint bucket</h2>
+            </div>
+            <div class="element">
+                <img src="data/icon-upload.png" alt="choose color">
+                <h2>Choose color</h2>
+            </div>
+        <div class="line"></div>
+        <div class="element" id="afterline">
+                <img src="data/icon-copy.png" alt="choose color">
+                <h2>Move</h2>
+        </div>
+        <div class="element">
+                <img src="data/icon-shar.png" alt="choose color">
+                <h2>Transform</h2>
+        </div>
+        </div>
+        <div class="menu">
+                <div class="element">
+                    <div class="circle" id="gray"></div>
+                    <h2>Current color</h2>
+                </div>
+                <div class="element">
+                        <div class="circle" id="green"></div>
+                        <h2>Prev color</h2>
+                    </div>
+            <div class="line"></div>
+                    <div class="element" id="afterline">
+                            <div class="circle" id="red"></div>
+                            <h2>red</h2>
+                    </div>
+                    <div class="element">
+                                <div class="circle" id="blue"></div>
+                                <h2>blue</h2>
+                    </div>
+        </div>
+    </div>
+        <canvas></canvas>
+        <div class="menu" id="switcher">
+            <button class="element" id="size">4x4</button>
+            <button class="element" id="size">32x32</button>
+            <button class="element" id="size">256x256</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
